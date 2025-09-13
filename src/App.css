@@ -1,0 +1,141 @@
+.intro {
+  width: min(60rem, 90%);
+  margin: 0 auto;
+  padding-top: 4rem;
+  font-size: 1.05rem;
+  position: relative;
+}
+
+.prompt {
+  position: fixed;
+  top: var(--space-4);
+  left: var(--safe-zone);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.prompt__path {
+  color: var(--color-text);
+}
+
+.prompt__cursor {
+  animation: blink 1.2s steps(2, start) infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  60% {
+    opacity: 1;
+  }
+
+  60.01%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.blurb {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: var(--space-6) 0;
+}
+
+.blurb h1 {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  font-weight: 500;
+  border-bottom: 3px solid var(--color-text);
+  display: inline-block;
+  padding-bottom: 0.4rem;
+  margin-bottom: 2.5rem;
+}
+
+.blurb p {
+  line-height: 1.7;
+  margin-bottom: var(--space-4);
+}
+
+.blurb p+p {
+  margin-top: 1.3rem;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.site-nav {
+  position: fixed;
+  top: var(--space-4);
+  right: var(--safe-zone);
+  display: flex;
+  gap: var(--space-3);
+  font-size: 0.9rem;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: var(--space-4);
+  right: var(--safe-zone);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: 0.9rem;
+}
+
+
+.site-nav a {
+  transition: color var(--duration) var(--easing);
+}
+
+.site-nav a:hover {
+  color: var(--color-accent);
+}
+
+.site-nav a.active {
+  text-decoration-thickness: 2px;
+}
+
+.site-footer a:hover,
+.blurb a:hover {
+  color: var(--color-accent);
+}
+
+@media (max-width: 40rem) {
+  .intro {
+    font-size: 1rem;
+    padding-top: 2rem;
+  }
+
+  .prompt {
+    font-size: 0.8rem;
+  }
+
+  .blurb {
+    padding: var(--space-4) 0;
+  }
+
+  .blurb h1 {
+    font-size: 2rem;
+  }
+
+  .site-nav {
+    gap: var(--space-2);
+    font-size: 0.8rem;
+  }
+
+  .site-footer {
+    gap: var(--space-2);
+    font-size: 0.8rem;
+  }
+}
+
+.site-footer__bear {
+  position: fixed;
+  bottom: var(--space-4);
+  left: var(--safe-zone);
+  font-size: 1rem;
+}
