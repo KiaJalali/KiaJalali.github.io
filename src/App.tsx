@@ -30,8 +30,7 @@ function App() {
       <section className="blurb">
         <h1>Kia&nbsp;Jalali</h1>
         <p>
-          I'm a software engineer interested in backend development,
-          quantitative finance, and open-source tools. I've interned at&nbsp;
+          I'm a software engineer interested in backend development. I've interned at&nbsp;
           <a href="https://www.snapchat.com" target="_blank" rel="noreferrer">
             Snapchat
           </a>
