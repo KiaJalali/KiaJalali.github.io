@@ -30,31 +30,7 @@ function App() {
       <section className="blurb">
         <h1>Kia&nbsp;Jalali</h1>
         <p>
-          I'm a software engineer interested in backend development. I've interned at&nbsp;
-          <a href="https://www.snapchat.com" target="_blank" rel="noreferrer">
-            Snapchat
-          </a>
-          ,&nbsp;
-          <a href="https://www.drw.com" target="_blank" rel="noreferrer">
-            DRW
-          </a>
-          ,&nbsp;
-          <a href="https://aws.amazon.com/backup/" target="_blank" rel="noreferrer">
-            AWS
-          </a>
-          ,&nbsp;
-          <a
-            href="https://developer.amazon.com/en-US/alexa"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Amazon&nbsp;Alexa
-          </a>
-          , and&nbsp;
-          <a href="https://www.sap.com" target="_blank" rel="noreferrer">
-            SAP
-          </a>
-          . I'm currently enjoying life before starting full-time work!
+          Hi there! I'm currently travelling around the world before starting full-time work!
         </p>
         <p>
           Feel free to check out my work on&nbsp;
